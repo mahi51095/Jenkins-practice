@@ -30,10 +30,10 @@ pipeline {
 
     post {
         always {
-            echo '✅ Pipeline finished.'
+            echo '✅ Pipeline Completed.'
         }
         success {
-            echo '🎉 Pipeline succeeded!'
+            echo '🎉 Pipeline successful!'
         }
         failure {
             echo '❌ Pipeline failed. Check logs!'
